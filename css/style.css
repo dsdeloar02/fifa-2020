@@ -218,7 +218,7 @@ hr{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 25px 0px;
+    padding: 15px 0px;
     margin: 0px;
 
 }
@@ -231,12 +231,66 @@ hr{
     text-decoration: none;
     color: rgb(212, 212, 212);
 }
+.fa-facebook-f {
+    background: #9b9b9b66;
+    padding: 7px 10px;
+    border-radius: 15px;
+    color: rgb(128, 128, 128);
+    transition: 0.4s;
+}
+.fa-facebook-f:hover {
+    background-color: #fff !important;
+    color: #000;
+}
+.fa-instagram {
+    background: #9b9b9b66;
+    padding: 7px 9px;
+    border-radius: 15px;
+}
+.fa-instagram:hover {
+    background-color: #fff !important;
+    color: #000;
+}
+.fa-twitter {
+    background: #9b9b9b66;
+    padding: 7px 8px;
+    border-radius: 15px;
+}
+.fa-twitter:hover {
+    background-color: #fff !important;
+    color: #000;
+}
 
 
+.matchBlog{
+    width: 30%;
+}
 
+.teamFlags span{
+    font-size: 16px;
+    font-weight: 700;
+}
 
-
-
+.teamFlags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.matchBlog {
+    width: 26%;
+    border: 1px solid #b5b4b4;
+    border-radius: 7px;
+    padding: 40px 25px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.matchBlog p{
+    margin: 0px 0px;
+    color: rgb(94, 94, 94);
+}
+.matchBlog h2{
+    font-size: 20px;
+}
 
 @media (max-width: 600px) {
     .HeaderWrapper {
@@ -301,6 +355,9 @@ hr{
         margin: 0px;
         padding: 40px 0px;
     }
+    .matchBlog{
+        width: 100%;
+    }
        
 
 
@@ -363,6 +420,9 @@ hr{
     .moreButton button{
         display: block;
     }
+    .matchBlog{
+        width: 100%;
+    }
 
 }
 
@@ -416,6 +476,9 @@ hr{
     .moreButton button{
         display: block;
     }
+    .matchBlog{
+        width: 40%;
+    }
 
 }
 
@@ -423,5 +486,8 @@ hr{
     .headerContet h1 {
         font-size: 55px;
         line-height: 70px;
+    }
+    .matchBlog{
+        width: 40%;
     }
 }
